@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-OBIE_UK_Integration">
+              <span class="suite-name border-failed">OBIE UK Integration</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-OBIE_UK_Integration">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-OBIE_UK_Integration">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-OBIE_UK_Integration">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-OBIE_UK_Integration">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-OBIE_UK_Integration">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-OBIE_UK_Integration">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-OBIE_UK_Integration">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OBIE_UK_Integration" class="hide-methods failed suite-OBIE_UK_Integration"> (hide)</a> <!-- hide-methods failed suite-OBIE_UK_Integration -->
+                      <a href="#" panel-name="suite-OBIE_UK_Integration" class="show-methods failed suite-OBIE_UK_Integration"> (show)</a> <!-- show-methods failed suite-OBIE_UK_Integration -->
+                    </span>
+                    <div class="method-list-content failed suite-OBIE_UK_Integration">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OBIE_UK_Integration" title="MyPackage.GetData" hash-for-method="validateMessage">validateMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OBIE_UK_Integration -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OBIE_UK_Integration" class="hide-methods passed suite-OBIE_UK_Integration"> (hide)</a> <!-- hide-methods passed suite-OBIE_UK_Integration -->
+                      <a href="#" panel-name="suite-OBIE_UK_Integration" class="show-methods passed suite-OBIE_UK_Integration"> (show)</a> <!-- show-methods passed suite-OBIE_UK_Integration -->
+                    </span>
+                    <div class="method-list-content passed suite-OBIE_UK_Integration">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OBIE_UK_Integration" title="MyPackage.GetData" hash-for-method="testFor200">testFor200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OBIE_UK_Integration" title="MyPackage.GetData" hash-for-method="testFor400">testFor400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OBIE_UK_Integration" title="MyPackage.OAuth2Ex" hash-for-method="testMethod">testMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OBIE_UK_Integration" title="MyPackage.OAuth2Ex" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OBIE_UK_Integration" title="MyPackage.GetData" hash-for-method="validateResponse">validateResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OBIE_UK_Integration -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OBIE_UK_Integration" class="panel OBIE_UK_Integration">
+          <div class="suite-OBIE_UK_Integration-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MyPackage.GetData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMessage">
+                  </a> <!-- validateMessage -->
+                  <span class="method-name">validateMessage</span>
+                  <div class="stack-trace">java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
+	at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:350)
+	at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1181)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+	at MyPackage.GetData.validateMessage(GetData.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OBIE_UK_Integration-class-failed -->
+          <div class="suite-OBIE_UK_Integration-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MyPackage.OAuth2Ex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod">
+                  </a> <!-- testMethod -->
+                  <span class="method-name">testMethod</span>
+                  <em>
+(Testing the web service whether success 200 has been received)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                  <em>
+(Testing the web service whether 401 has been received)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OBIE_UK_Integration-class-passed -->
+          <div class="suite-OBIE_UK_Integration-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MyPackage.GetData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFor200">
+                  </a> <!-- testFor200 -->
+                  <span class="method-name">testFor200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFor400">
+                  </a> <!-- testFor400 -->
+                  <span class="method-name">testFor400</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponse">
+                  </a> <!-- validateResponse -->
+                  <span class="method-name">validateResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OBIE_UK_Integration-class-passed -->
+        </div> <!-- panel OBIE_UK_Integration -->
+        <div panel-name="test-xml-OBIE_UK_Integration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/shavanthaweerasinghe/projects/training/training/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;OBIE UK Integration&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Payments End to End Flow Tests&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MyPackage.OAuth2Ex&quot;/&gt;
+      &lt;class name=&quot;MyPackage.GetData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Payments End to End Flow Tests --&gt;
+&lt;/suite&gt; &lt;!-- OBIE UK Integration --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OBIE_UK_Integration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OBIE UK Integration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Payments End to End Flow Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OBIE_UK_Integration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OBIE UK Integration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OBIE_UK_Integration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OBIE UK Integration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OBIE_UK_Integration');
+function tableData_OBIE_UK_Integration() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMethod')
+data.setCell(0, 2, 'MyPackage.OAuth2Ex')
+data.setCell(0, 3, 3715);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMethod2')
+data.setCell(1, 2, 'MyPackage.OAuth2Ex')
+data.setCell(1, 3, 1279);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testFor200')
+data.setCell(2, 2, 'MyPackage.GetData')
+data.setCell(2, 3, 1134);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateResponse')
+data.setCell(3, 2, 'MyPackage.GetData')
+data.setCell(3, 3, 905);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testFor400')
+data.setCell(4, 2, 'MyPackage.GetData')
+data.setCell(4, 3, 858);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateMessage')
+data.setCell(5, 2, 'MyPackage.GetData')
+data.setCell(5, 3, 297);
+window.suiteTableData['OBIE_UK_Integration']= { tableData: data, tableDiv: 'times-div-OBIE_UK_Integration'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-OBIE_UK_Integration">
+              </div> <!-- times-div-OBIE_UK_Integration -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OBIE_UK_Integration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OBIE UK Integration</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OBIE_UK_Integration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OBIE_UK_Integration" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MyPackage.OAuth2Ex</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">3718 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MyPackage.GetData</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFor200</span>
+                <span class="method-start">5000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFor400</span>
+                <span class="method-start">6135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateMessage</span>
+                <span class="method-start">6994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponse</span>
+                <span class="method-start">7303 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>employee.feature</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+employee.feature</font>
+</center></td></tr></table>
+<pre><span class="s0">Feature: </span><span class="s2">get employee details</span>
+
+  <span class="s0">Background:</span>
+    * <span class="s2">url 'http://dummy.restapiexample.com'</span>
+    <span class="s0">* </span><span class="s2">header Accept = 'application/json'</span>
+  <span class="s0">Scenario: </span><span class="s2">get all employee details</span>
+    <span class="s0">Given  </span><span class="s2">path '/api/v1/employees'</span>
+    <span class="s0">When </span><span class="s2">method get</span>
+    <span class="s0">Then </span><span class="s2">status 200</span>
+    <span class="s0">And </span><span class="s2">print 'Response is: ', response</span>
+    <span class="s0">And </span><span class="s2">match response contains {&quot;data&quot;:[{&quot;id&quot;:&quot;1&quot;,&quot;employee_name&quot;:&quot;Tiger Nixon&quot;,&quot;employee_salary&quot;:&quot;320800&quot;,&quot;employee_age&quot;:&quot;61&quot;,&quot;profile_image&quot;:&quot;&quot;}]}</span></pre>
+</body>
+</html>

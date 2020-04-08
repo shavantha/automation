@@ -1,0 +1,42 @@
+*********************TestResults**********************Request method:	GET
+Request URI:	http://api.zippopotam.us/us/90201
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 08 Apr 2020 08:43:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=db56f3402b5e372476fae9b03ea6b41b21586335422; expires=Fri, 08-May-20 08:43:42 GMT; path=/; domain=.zippopotam.us; HttpOnly; SameSite=Lax
+X-Cache: hit
+Charset: UTF-8
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 580ab3c64e4697fc-FRA
+Content-Encoding: gzip
+
+{
+    "post code": "90201",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Bell",
+            "longitude": "-118.1689",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "33.9767"
+        }
+    ]
+}
+*********************AfterTestResults**********************

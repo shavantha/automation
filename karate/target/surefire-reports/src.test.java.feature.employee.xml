@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/feature/employee.feature" skipped="0" tests="1" time="2.102075">
+  <testcase classname="src.test.java.feature.employee" name="get all employee details" time="2.102075">
+    <system-out>* url 'http://dummy.restapiexample.com' ................................... passed
+* header Accept = 'application/json' ...................................... passed
+Given path '/api/v1/employees' ............................................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print 'Response is: ', response ....................................... passed
+And match response contains {"data":[{id:"#notnull","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""}]} . passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [OBIE UK Integration]">
+  <test thread-count="5" verbose="0" name="Payments End to End Flow Tests(failed)">
+    <classes>
+      <class name="MyPackage.GetData">
+        <methods>
+          <include name="validateMessage"/>
+        </methods>
+      </class> <!-- MyPackage.GetData -->
+    </classes>
+  </test> <!-- Payments End to End Flow Tests(failed) -->
+</suite> <!-- Failed suite [OBIE UK Integration] -->

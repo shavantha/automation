@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03638a9e-d240-4889-b4e2-aa26cf66a05f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SpecBuilder/SpecBuilderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new-log3.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>utilities/weather/city/Colombo</find>
+      <find>allure-rest-assured</find>
+      <find>io.qameta.allure</find>
+      <find>END</find>
+      <find>md5Hash</find>
+      <find>aspectjweaver-1.8.5.jar</find>
+      <find>NOT</find>
+      <find>rollNumber</find>
+      <find>$PROJECT_DIR$</find>
+      <find>/html/body/div/div[3]/div[1]/table/tbody/tr[3]</find>
+      <find>requestWriter</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/message/Message.java" />
+        <option value="$PROJECT_DIR$/src/test/java/message/FinalMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyPackage/GetData.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/MyPackage/POSTData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyPackage/QueryParamDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyPackage/OAuth2Ex.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyPackage/DataDriven.java" />
+        <option value="$PROJECT_DIR$/src/test/java/student/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/java/student/TestDeSerialization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/student/TestSerialization.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/patasoft/Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/student2/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Login2.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/patasoft2/Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/readjson/ReadJson.java" />
+        <option value="$PROJECT_DIR$/src/test/java/readExcel/ReadExcel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restapitest/RestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restapitest/BasicAuth.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Arrays/ArrayClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Arrays/SortedArray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DynamicTables/DynamicTables.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restapitest/NBAAllstar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/coord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/Weather.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/Wind.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/Clouds.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/Serialization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/Sys.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restapitest/MapClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/WeatherTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ArrayList/ArrayListClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpecBuilder/LoggingClass.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SpecBuilder/SpecBuilderTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecBuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.SpecBuilderTest">
+    <configuration name="SpecBuilderTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpecBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpecBuilder" />
+      <option name="MAIN_CLASS_NAME" value="SpecBuilder.SpecBuilderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecBuilderTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpecBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpecBuilder" />
+      <option name="MAIN_CLASS_NAME" value="SpecBuilder.SpecBuilderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecBuilderTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpecBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpecBuilder" />
+      <option name="MAIN_CLASS_NAME" value="SpecBuilder.SpecBuilderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecBuilderTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpecBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpecBuilder" />
+      <option name="MAIN_CLASS_NAME" value="SpecBuilder.SpecBuilderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecBuilderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpecBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpecBuilder" />
+      <option name="MAIN_CLASS_NAME" value="SpecBuilder.SpecBuilderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherTest.testBaicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restapitest" />
+      <option name="MAIN_CLASS_NAME" value="weather.WeatherTest" />
+      <option name="METHOD_NAME" value="testBaicAuth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SpecBuilderTest" />
+        <item itemvalue="TestNG.SpecBuilderTest (4)" />
+        <item itemvalue="TestNG.SpecBuilderTest (3)" />
+        <item itemvalue="TestNG.SpecBuilderTest (2)" />
+        <item itemvalue="TestNG.SpecBuilderTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03638a9e-d240-4889-b4e2-aa26cf66a05f" name="Default Changelist" comment="" />
+      <created>1585809762146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585809762146</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 07m 31s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 09m 28s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 20m 03s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 21m 27s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 22m 34s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 24m 18s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 26m 41s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 13h 44m 37s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 14h 11m 02s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SpecBuilderTest - 2020.04.08 at 14h 13m 43s.xml">
+      <configuration name="SpecBuilderTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4884005" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65140414" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.3991228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7442002" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34859586" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48779" weight="0.32894737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/message/FinalMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/allure.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-rest-assured/2.13.2/allure-rest-assured-2.13.2.jar!/io/qameta/allure/restassured/AllureRestAssured.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyPackage/POSTData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/message/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/student/TestSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/student/TestDeSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/student/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/patasoft/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/student2/TestDeSerialization.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/student2/Student.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-gherkin-vintage/5.6.0/cucumber-gherkin-vintage-5.6.0.jar!/io/cucumber/core/gherkin/vintage/internal/gherkin/ast/DataTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Login2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/readjson/ReadJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/readExcel/ReadExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyPackage/DataDriven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Arrays/ArrayClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Arrays/SortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DynamicTables/DynamicTables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/patasoft2/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="34" column="104" selection-start-line="30" selection-start-column="6" selection-end-line="34" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyPackage/OAuth2Ex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyPackage/QueryParamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#72#73#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/Wind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyPackage/GetData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="66" column="9" selection-start-line="66" selection-end-line="66" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/Sys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapitest/MapClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/Serialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/Coord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ArrayList/ArrayListClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#145#153#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapitest/RestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapitest/BasicAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/CallResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/Clouds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/WeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpecBuilder/LoggingClass.java" />
+    <entry file="file://$PROJECT_DIR$/test-logging.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="122">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar!/org/seleniumhq/jetty9/io/WriterOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-log2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpecBuilder/SpecBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-log3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

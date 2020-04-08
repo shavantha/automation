@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3083" started-at="2020-04-01T16:11:29 IST" finished-at="2020-04-01T16:11:32 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="3083" started-at="2020-04-01T16:11:29 IST" finished-at="2020-04-01T16:11:32 IST">
+      <class name="selenium.test.TestDrpdownSorted">
+        <test-method status="PASS" signature="runTestOnDocker()[pri:0, instance:selenium.test.TestDrpdownSorted@27efef64]" name="runTestOnDocker" duration-ms="3057" started-at="2020-04-01T16:11:29 IST" finished-at="2020-04-01T16:11:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestOnDocker -->
+      </class> <!-- selenium.test.TestDrpdownSorted -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
