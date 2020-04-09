@@ -15,19 +15,18 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import static io.restassured.RestAssured.given;
 
-public class SpecBuilderTest {
+public class SpecBuilderTest extends GlobalVariables{
 
     public static  PrintStream log;
 
     @BeforeTest
     public RequestSpecification requestSpec() throws java.io.IOException {
 
-
         log=new PrintStream(new FileOutputStream("new-log3.txt"),true);
         log.append("*********************TestResults**********************\r");
 
         RequestSpecification requestSpecification =new RequestSpecBuilder()
-                .setBaseUri("http://api.zippopotam.us")
+                .setBaseUri(GlobalVariables.getGlobalVariables("baseURL"))
                 .setContentType(ContentType.JSON)
                 .addFilter(new RequestLoggingFilter(log))
                 .addFilter(new ResponseLoggingFilter(log))
