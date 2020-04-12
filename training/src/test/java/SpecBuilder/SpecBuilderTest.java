@@ -1,7 +1,6 @@
 package SpecBuilder;
 
 import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
@@ -12,33 +11,40 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 import static io.restassured.RestAssured.given;
 
-public class SpecBuilderTest {
+public class SpecBuilderTest extends GlobalVariables{
 
     public static  PrintStream log;
+    SpecBuilderUtil apiResource;
+    RequestSpecification requestSpecification;
+
 
     @BeforeTest
     public RequestSpecification requestSpec() throws java.io.IOException {
 
+        if (requestSpecification == null) {
+            log = new PrintStream(new FileOutputStream("new-log3.txt"), true);
+            log.append("*********************TestResults**********************\r");
 
-        log=new PrintStream(new FileOutputStream("new-log3.txt"),true);
-        log.append("*********************TestResults**********************\r");
-
-        RequestSpecification requestSpecification =new RequestSpecBuilder()
-                .setBaseUri("http://api.zippopotam.us")
-                .setContentType(ContentType.JSON)
-                .addFilter(new RequestLoggingFilter(log))
-                .addFilter(new ResponseLoggingFilter(log))
-                .build();
+            requestSpecification = new RequestSpecBuilder()
+                    .setBaseUri(GlobalVariables.getGlobalVariables("baseURL"))
+                    .setContentType(ContentType.JSON)
+                    .addFilter(new RequestLoggingFilter(log))
+                    .addFilter(new ResponseLoggingFilter(log))
+                    .build();
+            return requestSpecification;
+        }
         return requestSpecification;
     }
 
-    public ResponseSpecification responseSpec()  {
+    public ResponseSpecification responseSpec()throws IOException {
 
+        int code=Integer.parseInt(GlobalVariables.getGlobalVariables("HTTPOK"));
         ResponseSpecification responseSpecification=new ResponseSpecBuilder()
-                .expectStatusCode(200)
+                .expectStatusCode(code)
                 .expectContentType(ContentType.JSON)
                 .build();
 
@@ -46,24 +52,27 @@ public class SpecBuilderTest {
     }
     @Test
     public void testLKCode() throws java.io.IOException {
+        apiResource= SpecBuilderUtil.valueOf(GlobalVariables.getGlobalVariables("lkEndPoint"));
 
         given().
                 spec(requestSpec()).
                 when().
-                get("/lk/10350").
+                get(apiResource.getResource()).
                 then()
                 .spec(responseSpec());
     }
 
     @Test
      public void testUSCode() throws java.io.IOException {
+        apiResource= SpecBuilderUtil.valueOf(GlobalVariables.getGlobalVariables("usEndPoint"));
         given().
                 spec(requestSpec()).
                 when().log().all().
-                get("/us/90201").
+                get(apiResource.getResource()).
                 then()
                 .spec(responseSpec());
     }
+
 
     @AfterTest
     public void cleanup(){

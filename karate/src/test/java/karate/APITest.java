@@ -1,3 +1,4 @@
+//java class
 package karate;
 
 import com.intuit.karate.junit4.Karate;

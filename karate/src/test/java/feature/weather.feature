@@ -1,3 +1,4 @@
+#feature file
 Feature: get weather information of london
 
   Background:
