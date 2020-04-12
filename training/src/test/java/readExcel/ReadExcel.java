@@ -56,8 +56,6 @@ public class ReadExcel {
 
             Sheet xlsSheet = studentInfo.getSheet(sheetName);
 
-            //Create a loop to print cell values in a row
-
              URL=xlsSheet.getRow(1).getCell(0).getStringCellValue();
              name=xlsSheet.getRow(1).getCell(1).getStringCellValue();
 
