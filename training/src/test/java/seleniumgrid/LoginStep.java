@@ -1,3 +1,6 @@
+/*
+ login class
+ */
 package seleniumgrid;
 
 import io.cucumber.java.en.Given;
@@ -10,19 +13,17 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.*;
 
 
-public class Login {
+public class LoginStep {
 
     private WebDriver driver;
-    private WebDriverWait wait;
     private static String nodeURL,baseURL;
-    private static String path="/Users/shavanthaweerasinghe/projects/training/training/grid/geckodriver";
 
-    @Given("I am in the login page of the newtours application")
-    public void i_am_in_the_login_page_of_the_newtours_application() throws java.net.MalformedURLException
+
+    @Given("I am in the login page of the application")
+    public void i_am_in_the_login_page_of_the_application() throws java.net.MalformedURLException
     {
 
         baseURL="http://demo.guru99.com/test/newtours/index.php";
