@@ -1,3 +1,4 @@
+#feature file
 Feature: Login functionality feature
 
   In order to do make a holiday tour
