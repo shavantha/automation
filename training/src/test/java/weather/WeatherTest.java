@@ -6,10 +6,8 @@ import org.testng.annotations.Test;
 import io.restassured.response.Response;
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
-
-
 import static io.restassured.RestAssured.given;
-import java.util.List;
+
 
 public class WeatherTest {
 
@@ -33,9 +31,7 @@ public class WeatherTest {
     @Test
     public void testWeatherResponse2() {
 
-        RestAssured.baseURI ="https://samples.openweathermap.org/data/2.5/";
-        //RequestSpecification request = RestAssured.given();
-
+       RestAssured.baseURI ="https://samples.openweathermap.org/data/2.5/";
 
        Serialization serialization= given().
                 queryParam("q", "London,UK").

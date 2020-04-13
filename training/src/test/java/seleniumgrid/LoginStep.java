@@ -38,6 +38,8 @@ public class LoginStep {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(baseURL);
+
+
     }
 
     @When("I enter valid {string} and {string}")
