@@ -25,7 +25,7 @@ public class ReadExcel {
     public void setup() throws IOException {
 
 
-            System.setProperty("webdriver.firefox.driver", "/Users/shavanthaweerasinghe/projects/training/training/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "/Users/shavanthaweerasinghe/projects/training/training/grid/geckodriver");
             driver = new FirefoxDriver();
 
             String filePath = "/Users/shavanthaweerasinghe/projects/training/training";

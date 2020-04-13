@@ -10,7 +10,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -28,7 +27,7 @@ public class ReadJson {
     @BeforeTest
     public void setup() throws FileNotFoundException, IOException, ParseException
     {
-        System.setProperty("webdriver.firefox.driver", "/Users/shavanthaweerasinghe/projects/training/training/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/Users/shavanthaweerasinghe/projects/training/training/grid/geckodriver");
         Object obj = parser.parse(new FileReader("/Users/shavanthaweerasinghe/projects/training/training/student.json"));
 
 

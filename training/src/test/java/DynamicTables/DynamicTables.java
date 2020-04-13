@@ -17,7 +17,7 @@ public class DynamicTables {
        @BeforeTest
         public void setup() throws ParseException {
 
-           System.setProperty("webdriver.firefox.driver", "/Users/shavanthaweerasinghe/projects/training/training/geckodriver");
+           System.setProperty("webdriver.gecko.driver", "/Users/shavanthaweerasinghe/projects/training/training/grid/geckodriver");
            driver = new FirefoxDriver();
        }
 

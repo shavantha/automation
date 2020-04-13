@@ -21,7 +21,6 @@ public class SpecBuilderTest extends GlobalVariables{
     SpecBuilderUtil apiResource;
     RequestSpecification requestSpecification;
 
-
     @BeforeTest
     public RequestSpecification requestSpec() throws java.io.IOException {
 
@@ -43,6 +42,7 @@ public class SpecBuilderTest extends GlobalVariables{
     public ResponseSpecification responseSpec()throws IOException {
 
         int code=Integer.parseInt(GlobalVariables.getGlobalVariables("HTTPOK"));
+
         ResponseSpecification responseSpecification=new ResponseSpecBuilder()
                 .expectStatusCode(code)
                 .expectContentType(ContentType.JSON)
@@ -50,11 +50,12 @@ public class SpecBuilderTest extends GlobalVariables{
 
         return  responseSpecification;
     }
+
     @Test
     public void testLKCode() throws java.io.IOException {
-        apiResource= SpecBuilderUtil.valueOf(GlobalVariables.getGlobalVariables("lkEndPoint"));
+        apiResource= SpecBuilderUtil.valueOf("getLKEndPoint");
 
-        given().
+         given().
                 spec(requestSpec()).
                 when().
                 get(apiResource.getResource()).
@@ -64,7 +65,7 @@ public class SpecBuilderTest extends GlobalVariables{
 
     @Test
      public void testUSCode() throws java.io.IOException {
-        apiResource= SpecBuilderUtil.valueOf(GlobalVariables.getGlobalVariables("usEndPoint"));
+        apiResource= SpecBuilderUtil.valueOf("getUSEndPoint");
         given().
                 spec(requestSpec()).
                 when().log().all().
@@ -72,7 +73,6 @@ public class SpecBuilderTest extends GlobalVariables{
                 then()
                 .spec(responseSpec());
     }
-
 
     @AfterTest
     public void cleanup(){
