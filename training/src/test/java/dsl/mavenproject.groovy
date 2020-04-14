@@ -1,5 +1,6 @@
 package dsl
 
+
 job("Maven-project-via-dsl") {
     description("maven project on ${new Date()}")
     scm {
@@ -12,7 +13,7 @@ job("Maven-project-via-dsl") {
         maven('clean package', 'pom.xml')
     }
     publishers {
-        archieveArtifacts '**/*.jar'
+        archieveArtifacts '**/*.*'
     }
 }
 
