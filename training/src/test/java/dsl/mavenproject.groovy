@@ -4,7 +4,7 @@ package dsl
 job("Maven-project-via-dsl") {
     description("maven project on ${new Date()}")
     scm {
-        git("git@https://github.com/shavantha/helloworld.git", 'master')
+        git("https://github.com/shavantha/helloworld.git", 'master')
     }
     triggers {
         scm('* * * * *')
@@ -13,7 +13,7 @@ job("Maven-project-via-dsl") {
         maven('clean package', 'pom.xml')
     }
     publishers {
-        archieveArtifacts '**/*.*'
+        archieveArtifacts '**/*.war'
     }
 }
 
