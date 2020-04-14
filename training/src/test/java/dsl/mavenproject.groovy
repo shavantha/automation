@@ -12,7 +12,7 @@ job("Maven-project-via-dsl") {
         maven('clean package', 'pom.xml')
     }
     publishers {
-        archieveArtifacts '**/*.war'
+        archieveArtifacts '**/*.jar'
     }
 }
 
