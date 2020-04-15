@@ -12,14 +12,14 @@ job("Maven-project-via-dsl") {
     steps {
         maven('clean package', 'pom.xml')
     }
+
+    steps {
+        sh ('docker build . -t tomcatsample:${env.BUILD_ID}')
+    }
+    
     publishers {
         archiveArtifacts '**/*.war'
     }
 
-    steps {
-            sh 'docker build . -t tomcatsample:${env.BUILD_ID}'
-    }
-
-   
 }
 
