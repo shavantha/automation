@@ -1,7 +1,11 @@
 pipeline {
     agent any
+    agent {
+        label 'docker'
+    }
     tools {
         maven '/usr/local/Cellar/maven/3.6.2/'
+        docker '/var/lib/docker'
     }
     stages {
         stage('Build Application') {
