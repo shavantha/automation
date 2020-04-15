@@ -1,14 +1,18 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'node:7-alpine'
+        }
+    }
 
     tools {
         maven '/usr/local/Cellar/maven/3.6.2/'
-        DockerTool '/var/lib/docker'
+
     }
     stages {
         stage('Build Application') {
             steps {
-                sh 'mvn -f training/pom.xml clean package'
+                sh 'mvn -f pom.xml clean package'
             }
             post {
                 success {
@@ -20,7 +24,9 @@ pipeline {
 
         stage('Create Tomcat Docker Image'){
             steps {
-                sh "docker build . -t tomcatsamplewebapp:${env.BUILD_ID}"
+                sh "pwd"
+                sh "ls -a"
+                sh "docker build ./java-tomcat-sample-docker -t tomcatsamplewebapp:${env.BUILD_ID}"
             }
         }
 
