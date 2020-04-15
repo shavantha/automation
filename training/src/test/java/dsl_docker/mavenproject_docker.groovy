@@ -16,11 +16,10 @@ job("Maven-project-via-dsl") {
         archiveArtifacts '**/*.war'
     }
 
-    Stage ('Create tomcat docker image'){
-        steps {
+    steps {
             sh 'docker build . -t tomcatsample:${env.BUILD_ID}'
-        }
     }
+
    
 }
 
