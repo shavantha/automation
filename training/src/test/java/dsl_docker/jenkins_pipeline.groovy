@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.6.2'
+        maven '/usr/local/Cellar/maven/3.6.2/'
     }
     stages {
         stage('Build Application') {
