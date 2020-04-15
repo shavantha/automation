@@ -1,4 +1,4 @@
-FROM tomcat:8.5.54
+FROM tomcat:8.5
 
 ADD **/*.war /Users/shavanthaweerasinghe/projects/docker_training/tomcat/webapps
 
