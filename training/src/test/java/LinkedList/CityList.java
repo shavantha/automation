@@ -1,7 +1,5 @@
 package LinkedList;
 
-import weather.Sys;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 
