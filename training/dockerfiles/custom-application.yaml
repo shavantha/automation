@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  distro:
+    image: alpine #downloaded at runtime
+    restart: always #indicate that the container should always restart
+    container_name: custom_alpine #replaces the randomly generated container name
+    entrypoint: tail -f /dev/null #this will help keep the container running
+
+
+  database:
+    image: mysql:5.7
+    container_name: mysqldb
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'testdb'
+      MYSQL_USER: 'testuser'
+      MYSQL_PASSWORD: 'testuser'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3307:3307'
+    volumes:
+      - ../dumps:/tmp/
