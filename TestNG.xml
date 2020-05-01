@@ -13,6 +13,9 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="ActionsTest">
+	<listeners>
+		<listener class-name="Actions.ExtentReporterNG"/>
+	</listeners>
 	<test name="Actions testngTest">
 		<classes>
 			<class name="Actions.ActionDemo" />
